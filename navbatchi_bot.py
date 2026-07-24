@@ -1528,6 +1528,7 @@ async def on_startup(app: Application):
     app.job_queue.run_daily(
         navbat_job,
         time=dtime(NAVBAT_SOAT, NAVBAT_MINUT, 0, tzinfo=TIMEZONE),
+        job_kwargs={"misfire_grace_time": 3600, "coalesce": True},
     )
 
     # Ovqat so'rovi: har kuni 18:00
@@ -1537,6 +1538,7 @@ async def on_startup(app: Application):
     app.job_queue.run_daily(
         survey_job,
         time=dtime(OPEN_HOUR, 0, 0, tzinfo=TIMEZONE),
+        job_kwargs={"misfire_grace_time": 3600, "coalesce": True},
     )
 
     # Ovoz yopilishi: har kuni CLOSE_HOUR (06:00) da natija ro'yxati
@@ -1546,6 +1548,7 @@ async def on_startup(app: Application):
     app.job_queue.run_daily(
         close_job,
         time=dtime(CLOSE_HOUR, 0, 0, tzinfo=TIMEZONE),
+        job_kwargs={"misfire_grace_time": 3600, "coalesce": True},
     )
 
     # Haftalik ovqat hisoboti: Shanba 06:05 (oxirgi ovoz yopilgach).
@@ -1558,6 +1561,7 @@ async def on_startup(app: Application):
     app.job_queue.run_daily(
         weekly_job,
         time=dtime(CLOSE_HOUR, 5, 0, tzinfo=TIMEZONE),
+        job_kwargs={"misfire_grace_time": 3600, "coalesce": True},
     )
 
     logger.info(
