@@ -18,20 +18,27 @@ cp .env.example .env
 python3 navbatchi_bot.py
 ```
 
-## Serverda (systemd)
+## Ish tartibi (avto-deploy)
+
+Kodni GitHub'da o'zgartirib push qiling — server har 2 daqiqada o'zi tekshiradi,
+yangi kod bo'lsa avtomatik yuklab oladi va botni qayta ishga tushiradi.
+Serverga qo'lda kirish shart emas.
+
+## Serverdagi avtomatlashtirish (systemd)
 
 ```bash
-systemctl restart navbatchi     # qayta ishga tushirish
-systemctl status navbatchi      # holat
-journalctl -u navbatchi -f      # loglar
+systemctl status navbatchi          # bot holati
+journalctl -u navbatchi -f          # bot loglari
+systemctl list-timers 'navbatchi-*' # avto-deploy va backup timerlar
 ```
 
-⚠️ **Muhim:** kodni o'zgartirgandan keyin `systemctl restart navbatchi` qilishni unutmang — aks holda eski kod ishlab turaveradi.
+- `navbatchi.service` — botning o'zi (24/7)
+- `navbatchi-deploy.timer` — GitHub'dan avtomatik yangilash (har 2 daqiqa)
+- `navbatchi-backup.timer` — data JSON'larni GitHub'ga avto-backup (kuniga 07:00)
 
 ## Fayllar
 
 - `navbatchi_bot.py` — asosiy kod
-- `.env` — bot tokeni (GitHub'ga tushmaydi)
-- `*.json` — ish paytida yaratiladigan data fayllar (GitHub'ga tushmaydi)
-
-<!-- deploy test 18:48:11 -->
+- `.env` — bot tokeni (GitHub'ga tushmaydi, faqat serverda)
+- `*.json` — data fayllar (backup uchun GitHub'da saqlanadi)
+- `auto_deploy.sh`, `data_backup.sh` — avtomatlashtirish skriptlari
