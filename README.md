@@ -33,3 +33,5 @@ journalctl -u navbatchi -f      # loglar
 - `navbatchi_bot.py` — asosiy kod
 - `.env` — bot tokeni (GitHub'ga tushmaydi)
 - `*.json` — ish paytida yaratiladigan data fayllar (GitHub'ga tushmaydi)
+
+<!-- deploy test 18:48:11 -->
