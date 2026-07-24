@@ -1,5 +1,7 @@
 # === Maxfiy ma'lumot — HECH QACHON yuklamang ===
 .env
+.env.*
+!.env.example
 
 # === Ish paytida o'zgaradigan data fayllar ===
 # (bular botning ichki holati — GitHub'da kod turadi, data emas)
@@ -9,10 +11,6 @@ jadval.json
 menu.json
 vaqtinchalik_adminlar.json
 
-# === Python keshi ===
-__pycache__/
-*.pyc
-
 # === Lock / vaqtinchalik / eski nusxalar ===
 *.lock
 *.bak
@@ -21,3 +19,27 @@ __pycache__/
 *.save.*
 *.pyy
 *_backup.py
+
+# === Standart Python (GitHub shabloni) ===
+__pycache__/
+*.py[codz]
+*$py.class
+*.so
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+env/
+venv/
+.venv/
+ENV/
+*.log
+db.sqlite3
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.vscode/
+.idea/
