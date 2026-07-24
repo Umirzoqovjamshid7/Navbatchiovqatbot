@@ -1,0 +1,23 @@
+# === Maxfiy ma'lumot — HECH QACHON yuklamang ===
+.env
+
+# === Ish paytida o'zgaradigan data fayllar ===
+# (bular botning ichki holati — GitHub'da kod turadi, data emas)
+xodimlar.json
+ovqat_data.json
+jadval.json
+menu.json
+vaqtinchalik_adminlar.json
+
+# === Python keshi ===
+__pycache__/
+*.pyc
+
+# === Lock / vaqtinchalik / eski nusxalar ===
+*.lock
+*.bak
+*.bak_*
+*.save
+*.save.*
+*.pyy
+*_backup.py
