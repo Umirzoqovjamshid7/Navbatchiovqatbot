@@ -3,13 +3,8 @@
 .env.*
 !.env.example
 
-# === Ish paytida o'zgaradigan data fayllar ===
-# (bular botning ichki holati — GitHub'da kod turadi, data emas)
-xodimlar.json
-ovqat_data.json
-jadval.json
-menu.json
-vaqtinchalik_adminlar.json
+# === Data (JSON) fayllar GitHub'ga qo'shiladi (backup uchun) ===
+# ovqat-backup.timer ularni avtomatik commit+push qiladi
 
 # === Lock / vaqtinchalik / eski nusxalar ===
 *.lock

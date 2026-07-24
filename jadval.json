@@ -1,0 +1,167 @@
+{
+  "offset": 2,
+  "guruhlar": [
+    {
+      "nom": "1-hafta",
+      "kunlar": {
+        "Dushanba": [
+          {
+            "ism": "Yusupjonov Ilyos",
+            "id": null
+          },
+          {
+            "ism": "Razzaqova Zahro, Murtazaqulova Farangiz ,Allayarov Ramziddin , Askarjanov Abduahad ,yangi xodim",
+            "id": null
+          }
+        ],
+        "Seshanba": [
+          {
+            "ism": "Norbayeva Aziza ,Abduqodirova Nilufar ,Maxabetova Gavxar , Mirabdulloh , Yusupjonov Ilyos",
+            "id": null
+          }
+        ],
+        "Chorshanba": [],
+        "Payshanba": [],
+        "Juma": [],
+        "Shanba": []
+      }
+    },
+    {
+      "nom": "2-hafta",
+      "kunlar": {
+        "Dushanba": [
+          {
+            "ism": "Muxitdinova Zuxra",
+            "id": 8755091601
+          },
+          {
+            "ism": "Obodullaeva Sevinch",
+            "id": 7535348701
+          },
+          {
+            "ism": "Xamitov Firdavs",
+            "id": 7109729589
+          },
+          {
+            "ism": "Yuldashev Fayoziddin",
+            "id": null
+          },
+          {
+            "ism": "Anvarova Fazilat",
+            "id": 6190441108
+          }
+        ],
+        "Seshanba": [
+          {
+            "ism": "Beshimova Ruxshona",
+            "id": 8002918423
+          },
+          {
+            "ism": "Ganieyeva Dilufar",
+            "id": 7156426705
+          },
+          {
+            "ism": "Mirabdulloh",
+            "id": 8954423553
+          },
+          {
+            "ism": "Akmalova Jasmina",
+            "id": 8117042356
+          },
+          {
+            "ism": "Yusufjonov Ilyos",
+            "id": 1217863150
+          }
+        ],
+        "Chorshanba": [
+          {
+            "ism": "Saidova Ziyoda",
+            "id": 7039811540
+          },
+          {
+            "ism": "Xaitova Azizaxon",
+            "id": 8302294629
+          },
+          {
+            "ism": "Bexzadova Gulibonu",
+            "id": 2123292927
+          },
+          {
+            "ism": "Yangi xodim",
+            "id": 5279505852
+          },
+          {
+            "ism": "Salimov Usmon",
+            "id": 7996538688
+          }
+        ],
+        "Payshanba": [
+          {
+            "ism": "Isaxodjaeva Mubina",
+            "id": 2053212519
+          },
+          {
+            "ism": "Isakova Fotima",
+            "id": 7566987733
+          },
+          {
+            "ism": "Abdullayeva Hadicha",
+            "id": null
+          },
+          {
+            "ism": "Ramatov Zokir",
+            "id": 5171756780
+          },
+          {
+            "ism": "Asomov Umidyor",
+            "id": null
+          }
+        ],
+        "Juma": [
+          {
+            "ism": "Madaminova Sevara",
+            "id": 6446349058
+          },
+          {
+            "ism": "Ibrogimova O’g’iljon",
+            "id": 7801480379
+          },
+          {
+            "ism": "Umirzoqov Jamshid",
+            "id": 6664377626
+          },
+          {
+            "ism": "Meliziyoyeva Tamanno",
+            "id": 5628411190
+          },
+          {
+            "ism": "Primov Ozodbek",
+            "id": 6215451224
+          }
+        ],
+        "Shanba": [
+          {
+            "ism": "Tamanno",
+            "id": null
+          },
+          {
+            "ism": "Iroda",
+            "id": null
+          },
+          {
+            "ism": "Akrom",
+            "id": null
+          },
+          {
+            "ism": "Abduqodirova Nulifar",
+            "id": null
+          },
+          {
+            "ism": "Yusupaliyev Jamshid",
+            "id": 249489315
+          }
+        ]
+      }
+    }
+  ]
+}

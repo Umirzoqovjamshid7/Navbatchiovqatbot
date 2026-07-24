@@ -1,0 +1,26 @@
+{
+  "0": {
+    "name": "Golubsi yoki Pelmeni",
+    "photo": "photos/dushanba.jpg"
+  },
+  "1": {
+    "name": "man ozim almashtirmoqchiman",
+    "photo": "photos/seshanba.jpg"
+  },
+  "2": {
+    "name": "Qovurma lag'mon",
+    "photo": "photos/chorshanba.jpg"
+  },
+  "3": {
+    "name": "Osh (Plov)",
+    "photo": "photos/payshanba.jpg"
+  },
+  "4": {
+    "name": "Mastava",
+    "photo": "photos/juma.jpg"
+  },
+  "5": {
+    "name": "Mosh kichiri",
+    "photo": "photos/shanba.jpg"
+  }
+}
