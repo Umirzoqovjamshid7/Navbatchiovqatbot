@@ -6,24 +6,136 @@
       "kunlar": {
         "Dushanba": [
           {
-            "ism": "Yusupjonov Ilyos",
+            "ism": "Razzoqova Zahro",
             "id": null
           },
           {
-            "ism": "Razzaqova Zahro, Murtazaqulova Farangiz ,Allayarov Ramziddin , Askarjanov Abduahad ,yangi xodim",
+            "ism": "Shuhratova Dilrabo",
+            "id": null
+          },
+          {
+            "ism": "Murtazaqulova Farangiz",
+            "id": null
+          },
+          {
+            "ism": "Allayorov Ramziddin",
+            "id": null
+          },
+          {
+            "ism": "Askarjonov Abduahad",
             "id": null
           }
         ],
         "Seshanba": [
           {
-            "ism": "Norbayeva Aziza ,Abduqodirova Nilufar ,Maxabetova Gavxar , Mirabdulloh , Yusupjonov Ilyos",
+            "ism": "Norbayeva Aziza",
+            "id": null
+          },
+          {
+            "ism": "Abduqodirova Nulifar",
+            "id": null
+          },
+          {
+            "ism": "Maxabetova Gavxar",
+            "id": null
+          },
+          {
+            "ism": "Mirkarimov Mirabdulloh",
+            "id": null
+          },
+          {
+            "ism": "Yusufjonov Ilyos",
             "id": null
           }
         ],
-        "Chorshanba": [],
-        "Payshanba": [],
-        "Juma": [],
-        "Shanba": []
+        "Chorshanba": [
+          {
+            "ism": "Inoyatova Oysha",
+            "id": null
+          },
+          {
+            "ism": "Toshmurodova Iroda",
+            "id": null
+          },
+          {
+            "ism": "Hasanova Risolat",
+            "id": null
+          },
+          {
+            "ism": "Rahmonov Inomjon",
+            "id": null
+          },
+          {
+            "ism": "Choriyev Diyor",
+            "id": null
+          }
+        ],
+        "Payshanba": [
+          {
+            "ism": "Habibullaev G'ulomnazir",
+            "id": null
+          },
+          {
+            "ism": "Anvarova Fazilat",
+            "id": null
+          },
+          {
+            "ism": "Jumanova Munisa",
+            "id": null
+          },
+          {
+            "ism": "Sharipova Bahora",
+            "id": null
+          },
+          {
+            "ism": "Jumabayev Sanjar",
+            "id": null
+          }
+        ],
+        "Juma": [
+          {
+            "ism": "Maxamadjanova Ra'no",
+            "id": null
+          },
+          {
+            "ism": "Ziyodullayeva Mohinabonu",
+            "id": null
+          },
+          {
+            "ism": "Yangi kelgan xodim",
+            "id": null
+          },
+          {
+            "ism": "Sayfullayev O'ktamjon",
+            "id": null
+          },
+          {
+            "ism": "Eshmamadova Kamola",
+            "id": null
+          }
+        ],
+        "Shanba": [
+          {
+            "ism": "Raxmatullaeva Jasmina",
+            "id": null
+          },
+          {
+            "ism": "Murtazayeva Muazzam",
+            "id": null
+          },
+          {
+            "ism": "Toshkentov Elshod",
+            "id": null
+          },
+          {
+            "ism": "Rahmonberdiyev Shoxrux",
+            "id": null
+          },
+          {
+            "ism": "Shojalilova Mubinabonu",
+            "id": null
+          }
+        ]
       }
     },
     {
@@ -31,8 +143,8 @@
       "kunlar": {
         "Dushanba": [
           {
-            "ism": "Muxitdinova Zuxra",
-            "id": 8755091601
+            "ism": "Jalolitdinova Sug'diyona",
+            "id": null
           },
           {
             "ism": "Obodullaeva Sevinch",
@@ -47,8 +159,8 @@
             "id": null
           },
           {
-            "ism": "Anvarova Fazilat",
-            "id": 6190441108
+            "ism": "Zokirova Iroda",
+            "id": null
           }
         ],
         "Seshanba": [
@@ -57,20 +169,20 @@
             "id": 8002918423
           },
           {
-            "ism": "Ganieyeva Dilufar",
-            "id": 7156426705
-          },
-          {
-            "ism": "Mirabdulloh",
-            "id": 8954423553
+            "ism": "Ganiyeva Dilufar",
+            "id": null
           },
           {
             "ism": "Akmalova Jasmina",
             "id": 8117042356
           },
           {
-            "ism": "Yusufjonov Ilyos",
-            "id": 1217863150
+            "ism": "Nasriddinov Boburmirzo",
+            "id": null
+          },
+          {
+            "ism": "Erkinov Ilyos",
+            "id": null
           }
         ],
         "Chorshanba": [
@@ -87,8 +199,8 @@
             "id": 2123292927
           },
           {
-            "ism": "Yangi xodim",
-            "id": 5279505852
+            "ism": "Sobirov Ismoil",
+            "id": null
           },
           {
             "ism": "Salimov Usmon",
@@ -96,10 +208,6 @@
           }
         ],
         "Payshanba": [
-          {
-            "ism": "Isaxodjaeva Mubina",
-            "id": 2053212519
-          },
           {
             "ism": "Isakova Fotima",
             "id": 7566987733
@@ -115,6 +223,10 @@
           {
             "ism": "Asomov Umidyor",
             "id": null
+          },
+          {
+            "ism": "Ibragimova O'g'iljon",
+            "id": null
           }
         ],
         "Juma": [
@@ -123,42 +235,42 @@
             "id": 6446349058
           },
           {
-            "ism": "Ibrogimova O’g’iljon",
-            "id": 7801480379
+            "ism": "Muxiddinova Zuxra",
+            "id": null
           },
           {
-            "ism": "Umirzoqov Jamshid",
-            "id": 6664377626
+            "ism": "yangi kelgan xodim",
+            "id": null
           },
           {
-            "ism": "Meliziyoyeva Tamanno",
-            "id": 5628411190
+            "ism": "Elmuratova Jasmina",
+            "id": null
           },
           {
-            "ism": "Primov Ozodbek",
-            "id": 6215451224
+            "ism": "Kamoliddinov Ulug'bek",
+            "id": null
           }
         ],
         "Shanba": [
           {
-            "ism": "Tamanno",
+            "ism": "Meliziyayeva Tamanno",
             "id": null
           },
           {
-            "ism": "Iroda",
+            "ism": "Mamasoliyeva Muborak",
             "id": null
           },
           {
-            "ism": "Akrom",
+            "ism": "Nomonova Shirin",
             "id": null
           },
           {
-            "ism": "Abduqodirova Nulifar",
-            "id": null
+            "ism": "Primov Ozodbek",
+            "id": 6215451224
           },
           {
-            "ism": "Yusupaliyev Jamshid",
-            "id": 249489315
+            "ism": "Umirzoqov Jamshid",
+            "id": 6664377626
           }
         ]
       }
